@@ -1,0 +1,31 @@
+testcases:
+  - name: "testcase 1 - n and k equal to 1"
+    inputs:
+      - 1: [664]
+      - 2: 1
+    output:
+      - 1: [664]
+  - name: "testcase 2 - n > 1 and k equals to 1 "
+    inputs:
+      - 1: [19, 704, 766, 18]
+      - 2: 1
+    output:
+      - 1: [19, 704, 766, 18]
+  - name: "testcase 3 - n >= k and is a multiple of k"
+    inputs:
+      - 1: [923, 599, 44, 708, 321, 26]
+      - 2: 3
+    output:
+      - 1: [44, 599, 923, 26, 321, 708]
+  - name: "testcase 4 - n >= k and is a multiple of k"
+    inputs:
+      - 1: [86, 353, 605, 188, 115, 120]
+      - 2: 2
+    output:
+      - 1: [353, 86, 188, 605, 120, 115]
+  - name: "testcase 5 - n > k and is not a multiple of k"
+    inputs:
+      - 1: [896, 844, 366, 129, 826, 558, 298]
+      - 2: 3
+    output:
+      - 1: [366, 844, 896, 558, 826, 129, 298]
